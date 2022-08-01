@@ -1,0 +1,37 @@
+@font-face {
+	font-family: "Nunito";
+	src: local("GoldmanBold"), url("../fons/Nunito.woff") format("woff"),
+		url("../fons/Nunito.woff2") format("woff2");
+
+	font-weight: 400;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+h1,
+h2,
+h3,
+p,
+legend,
+input,
+label {
+	font-family: "Nunito", Helvetica, sans-serif;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 26px;
+	color: $color-txt;
+
+	font-weight: 400;
+
+	text-decoration: none;
+}
+
+h1,
+h2 {
+	font-size: 40px;
+	line-height: 40px;
+}

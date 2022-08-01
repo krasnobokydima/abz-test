@@ -1,0 +1,24 @@
+.link-button {
+	font-size: 16px;
+	color: $color-txt;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100px;
+	height: 34px;
+
+	border-radius: 17px;
+	border: none;
+	background-color: $color-primary;
+	z-index: 3;
+	cursor: pointer;
+
+	&:disabled {
+		background-color: #b4b4b4;
+	}
+
+	&--large {
+		width: 120px;
+	}
+}
